@@ -1,0 +1,10 @@
+{
+  "item.potion_upgrades.empty_potion_upgrade": "Empty Potion Upgrade",
+  "item.potion_upgrades.filled_potion_upgrade": "Filled Potion Upgrade",
+
+  "item.potion_upgrades.strength_potion_upgrade": "Strength Potion Upgrade",
+  "item.potion_upgrades.strength_potion_upgrade.desc0": "Works on tools and weapons.",
+  "item.potion_upgrades.strength_potion_upgrade.desc1": "Speeds up using the equipment.",
+
+  "creative_tab.name": "Potion Upgrades"
+}

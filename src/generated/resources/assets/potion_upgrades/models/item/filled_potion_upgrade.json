@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "potion_upgrades:item/filled_potion_upgrade",
+    "layer1": "potion_upgrades:item/cutout_potion_upgrade"
+  }
+}
