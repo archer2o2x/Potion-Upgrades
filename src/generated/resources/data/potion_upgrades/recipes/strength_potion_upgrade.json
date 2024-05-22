@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "p": {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strong_strength\"}"
+    },
+    "u": {
+      "item": "potion_upgrades:empty_potion_upgrade"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "pup",
+    "ppp"
+  ],
+  "result": {
+    "item": "potion_upgrades:strength_potion_upgrade"
+  },
+  "show_notification": true
+}

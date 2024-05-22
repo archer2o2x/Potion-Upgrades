@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "n": {
+      "item": "minecraft:netherrack"
+    }
+  },
+  "pattern": [
+    "dnd",
+    "n n",
+    "dnd"
+  ],
+  "result": {
+    "item": "potion_upgrades:empty_potion_upgrade"
+  },
+  "show_notification": true
+}

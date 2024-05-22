@@ -46,4 +46,5 @@ public class ModItemModelProviders extends ItemModelProvider {
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(PotionUpgrades.MODID, "block/" + item.getId().getPath()));
     }
+    
 }

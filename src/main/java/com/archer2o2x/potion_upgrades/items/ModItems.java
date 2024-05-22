@@ -3,6 +3,7 @@ package com.archer2o2x.potion_upgrades.items;
 import com.archer2o2x.potion_upgrades.PotionUpgrades;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SmithingTemplateItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -23,8 +24,12 @@ public class ModItems {
     public static RegistryObject<Item> FILLED_POTION_UPGRADE = register("filled_potion_upgrade", new Color(96, 232, 232),
             () -> new Item(new Item.Properties()));
 
+
+
     public static RegistryObject<Item> STRENGTH_POTION_UPGRADE = register("strength_potion_upgrade", new Color(255, 70, 70),
             () -> new Item(new Item.Properties()));
+
+
 
 
 

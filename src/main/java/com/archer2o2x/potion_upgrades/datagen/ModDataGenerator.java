@@ -24,6 +24,7 @@ public class ModDataGenerator {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
         generator.addProvider(event.includeClient(), new ModItemModelProviders(packOutput, existingFileHelper));
+        generator.addProvider(event.includeServer(), new ModRecipes(packOutput));
 
     }
 
