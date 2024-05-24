@@ -11,7 +11,7 @@ import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-import java.awt.*;
+import java.awt.Color;
 
 @Mod.EventBusSubscriber(modid = PotionUpgrades.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModDataGenerator {
